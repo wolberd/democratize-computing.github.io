@@ -2096,7 +2096,7 @@
 
 	#header {
 		position: relative;
-		background-image: url("../../images/header.jpg");
+		background-image: url("../../images/banner.jpg");
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
@@ -2131,7 +2131,7 @@
 			}
 
 		#header h1 {
-			color: #fff;
+			color: #FFD119;
 			font-size: 3em;
 			line-height: 1em;
 		}
@@ -2695,7 +2695,7 @@
 				}
 
 			.row > section, .row > article {
-				margin-bottom: 2em;
+				margin-bottom: 1em;
 			}
 
 			header > p {
