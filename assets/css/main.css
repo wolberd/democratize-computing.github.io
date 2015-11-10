@@ -2096,7 +2096,7 @@
 
 	#header {
 		position: relative;
-		background-image: url("../../images/banner.jpg");
+		background-image: url("../../images/header.jpg");
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
@@ -2131,7 +2131,7 @@
 			}
 
 		#header h1 {
-			color: #FFD119;
+			color: #fff;
 			font-size: 3em;
 			line-height: 1em;
 		}
@@ -2506,6 +2506,7 @@
 		}
 
 		.carousel article {
+			vertical-align: top;
 			display: inline-block;
 			width: 18em;
 			background: #fff;
@@ -2694,7 +2695,7 @@
 				}
 
 			.row > section, .row > article {
-				margin-bottom: 1em;
+				margin-bottom: 2em;
 			}
 
 			header > p {
