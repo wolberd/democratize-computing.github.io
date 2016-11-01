@@ -39,9 +39,21 @@
 		content: none;
 	}
 
-	table {
+	/*table {
 		border-collapse: collapse;
 		border-spacing: 0;
+	}*/
+
+	table td {
+	    /*background-color: lime;*/
+	    margin: 12px 12px 12px 12px;
+	    padding: 35px;
+	}
+
+	table {
+	    border-collapse: separate;
+	    border-spacing: 10px;
+	    *border-collapse: expression('separate', cellSpacing = '10px');
 	}
 
 	body {
